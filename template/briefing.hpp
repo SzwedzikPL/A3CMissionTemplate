@@ -1,4 +1,4 @@
-if(_player != player) exitWith {};
+if (_player != player) exitWith {};
 
 /***************************************
                Briefing

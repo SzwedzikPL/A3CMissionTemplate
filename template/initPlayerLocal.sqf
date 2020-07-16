@@ -8,4 +8,3 @@ params ["_player", "_jip"];
 #include "briefing.hpp"
 
 //-- Twój kod --//
-player addItem "ACE_EarPlugs";
