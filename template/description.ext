@@ -21,3 +21,6 @@ class Extended_PostInit_EventHandlers {
 /***************************************
           Twoje ustawienia
 ****************************************/
+
+// Pozwól na ładowanie gogli z profili graczy, 0 - zablokuj, 1 - pozwól
+allowProfileGlasses = 0;
