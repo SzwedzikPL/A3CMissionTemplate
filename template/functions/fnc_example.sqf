@@ -1,0 +1,3 @@
+/*
+przykładowa funkcja
+*/
