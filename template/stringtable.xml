@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="A3C">
+  <Package name="Mission">
+    <Key ID="STR_A3C_Mission_Example_Text">
+      <Polish>Przykładowy tekst z obsługą polskich znaków</Polish>
+    </Key>
+  </Package>
+</Project>

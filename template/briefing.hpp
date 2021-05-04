@@ -1,14 +1,12 @@
-if (_player != player) exitWith {};
-
-/***************************************
-               Briefing
-****************************************/
+/*
+ * Briefing
+ * Dokumentacja: https://community.bistudio.com/wiki/createDiaryRecord
+ */
 
 player createDiaryRecord [
 "Diary", [
 "Briefing",
 "
-<img width='160' image='data\a3c.paa' /><br />
 <font size='20'>Briefing <font color='#0066FF'>misji</font></font>
 <br />
 <br />

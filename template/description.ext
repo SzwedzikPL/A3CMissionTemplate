@@ -1,10 +1,35 @@
-﻿/***************************************
- ***************************************
-        Szablon misji A3C - 2.2.0
- ***************************************
- ****************************************/
+#include "script_component.hpp"
+#include "defines.hpp"
+/*
+ * Config misji
+ * Dokumentacja: https://community.bistudio.com/wiki/Description.ext
+ */
 
-#include "ustawienia_zakonczen.hpp"
+// Definicja wersji szablonu - nie zmieniać!
+a3c_missionTemplate = 3.0;
+
+// Deklaracje zakończeń
+// #include "CfgDebriefing.hpp"
+
+// Deklaracje ekranów tytułowych
+// #include "RscTitles.hpp"
+
+// OPIS
+disableChannels[] = {
+	{1,true,true},
+	{2,true,true},
+	{3,true,true},
+	{4,true,true},
+	{5,true,true}
+};
+
+// Blokowanie gogli ładowanych z profili graczy - ustaw na 1, żeby zezwolić na gogle z profili
+allowProfileGlasses = 0;
+
+/*
+ * Rejestracje handlerów w CBA XEH
+ * Dokumentacja: https://github.com/CBATeam/CBA_A3/wiki/Extended-Eventhandlers
+ */
 
 class Extended_PreInit_EventHandlers {
     class A3C_mission_preInit {
@@ -18,9 +43,6 @@ class Extended_PostInit_EventHandlers {
     };
 };
 
-/***************************************
-          Twoje ustawienia
-****************************************/
-
-// Pozwól na ładowanie gogli z profili graczy, 0 - zablokuj, 1 - pozwól
-allowProfileGlasses = 0;
+/*
+ * Twoje ustawienia
+ */
