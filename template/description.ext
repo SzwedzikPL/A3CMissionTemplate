@@ -1,5 +1,6 @@
 #include "script_component.hpp"
-#include "defines.hpp"
+#include "cfg\defines.hpp"
+
 /*
  * Config misji
  * Dokumentacja: https://community.bistudio.com/wiki/Description.ext
@@ -8,13 +9,34 @@
 // Definicja wersji szablonu - nie zmieniać!
 a3c_missionTemplate = 3.0;
 
+// W celu użycia danego elementu należy usunąć wykomentowanie - tak jak ma to miejsce w przypadku RscTittles.hpp
+
 // Deklaracje zakończeń
-// #include "CfgDebriefing.hpp"
+// Dokumentacja:https://community.bistudio.com/wiki/Description.ext#CfgDebriefing
+// #include "cfg\CfgDebriefing.hpp"
 
 // Deklaracje ekranów tytułowych
-// #include "RscTitles.hpp"
+// Używane np. w https://community.bistudio.com/wiki/titleRsc , https://community.bistudio.com/wiki/cutRsc
+#include "cfg\RscTitles.hpp"
 
-// OPIS
+// Deklaracje naszywek na rękawach
+// Dokumentacja: https://community.bistudio.com/wiki/Arma_3:_Unit_Insignia
+// #include "cfg\CfgUnitInsignia.hpp"
+
+// Deklaracje wyglądu ulotek
+// Dokumentacja: https://community.bistudio.com/wiki/Arma_3:_Leaflets
+// #include "cfg\CfgLeaflets.hpp"
+
+// Deklaracje dźwięków używanych z komendami playSound, say2D, say3D. Jeżeli gracz będzie miał ściszone efekty dźwiękowe to nie usłyszy.
+// Dokumentacja: https://community.bistudio.com/wiki/Description.ext#CfgSounds
+// #include "cfg\CfgSounds.hpp"
+
+// Deklaracje muzyki wykorzystywane przy playMusic. Jeżeli gracz będzie miał ściszoną muzykę to nie usłyszy.
+// Dokumentacja: https://community.bistudio.com/wiki/Description.ext#CfgMusic
+#include "cfg\CfgMusic.hpp"
+
+// Blokuje czat tekstowy. Kanały: 0 - globalny, 1 - strona, 2 - command, 3 - grupa, 4 - pojazd, 5 - bezpośrednia rozmowa
+// Jeżeli chcesz odblokować jakiś kanał, to usuń cały nawias np. {5,true,true}
 disableChannels[] = {
 	{1,true,true},
 	{2,true,true},
