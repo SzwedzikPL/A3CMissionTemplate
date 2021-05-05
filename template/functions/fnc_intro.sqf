@@ -1,6 +1,9 @@
 #include "script_component.hpp"
 /*
- * Author: Krzyciu
+ * Authors:
+ * Script: Krzyciu
+ * Graphic: SzwedzikPL
+ * Audio: Bohemia Interactive, SzwedzikPL
  * Intro misji
  */
 
@@ -42,9 +45,10 @@ sleep 2;
 sleep 2;
 titleText ["","BLACK IN",8];
 cutText ["","BLACK OUT", 0];
+
 // Tekst w prawym dolnym rogu, wyświetlany linijka po linijce. Teksty zdefiniowane w stringtable.xml
 [
-  [(_unitData #2 + " " + _unitData #1),2,1,5], // stopień + nick
+  [(_unitData #2 + " " + _unitData #1),2,1,5] // stopień + nick
   //[localize LSTRING(Intro_Date),2,1], // data
   //[localize LSTRING(Intro_Place),2,1], // miejsce
   //[localize LSTRING(Intro_Unit),2,1] // jednostka

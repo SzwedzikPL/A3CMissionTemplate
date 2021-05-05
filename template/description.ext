@@ -9,11 +9,11 @@
 // Definicja wersji szablonu - nie zmieniać!
 a3c_missionTemplate = 3.0;
 
-// W celu użycia danego elementu należy usunąć wykomentowanie - tak jak ma to miejsce w przypadku RscTittles.hpp
-
 // Deklaracje zakończeń
 // Dokumentacja:https://community.bistudio.com/wiki/Description.ext#CfgDebriefing
-// #include "cfg\CfgDebriefing.hpp"
+#include "cfg\CfgDebriefing.hpp" // Nie zmieniać
+
+// W celu użycia danego elementu należy usunąć wykomentowanie - tak jak ma to miejsce w przypadku RscTittles.hpp
 
 // Deklaracje ekranów tytułowych
 // Używane np. w https://community.bistudio.com/wiki/titleRsc , https://community.bistudio.com/wiki/cutRsc

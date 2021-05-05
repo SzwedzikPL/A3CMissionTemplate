@@ -12,9 +12,4 @@
 
 PREP(intro);
 
-// Komenda wyłączająca trawę w edytorze. Defaultowa wartość - trawa widoczna w sposób normalny to 25.
-if (is3DEN) then {
-	setTerrainGrid 50;
-};
-
 // Twój kod
