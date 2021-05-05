@@ -4,5 +4,23 @@
     <Key ID="STR_A3C_Mission_Example_Text">
       <Polish>Przykładowy tekst z obsługą polskich znaków</Polish>
     </Key>
+    <Key ID="STR_A3C_Mission_Text_Leaflet">
+      <Polish>Przykładowy tekst ulotki z obsługą polskich znaków</Polish>
+    </Key>
+    <Key ID="STR_A3C_Mission_Intro_Text_1">
+      <Polish>&lt;t font='RobotoCondensedLight' size='2' color='#ffffff'&gt;Pierwszy tekst wyświetlany na środku ekranu&lt;/t&gt;</Polish>
+    </Key>
+    <Key ID="STR_A3C_Mission_Intro_Text_2">
+      <Polish>&lt;t font='RobotoCondensedLight' size='2' color='#ffffff'&gt;Drugi tekst wyświetlany na środku ekranu&lt;/t&gt;</Polish>
+    </Key>
+    <Key ID="STR_A3C_Mission_Intro_Date">
+      <Polish>5 Maja 2020</Polish>
+    </Key>
+    <Key ID="STR_A3C_Mission_Intro_Place">
+      <Polish>Gdzieś w Polsce</Polish>
+    </Key>
+    <Key ID="STR_A3C_Mission_Intro_Unit">
+      <Polish>3 Pluton A3C</Polish>
+    </Key>
   </Package>
 </Project>
