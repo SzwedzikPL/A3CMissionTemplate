@@ -12,4 +12,12 @@
 
 PREP(intro);
 
-// Twój kod
+// Kod wykonywany lokalnie u gracza, za każdym razem gdy dołączy do gry
+if (hasInterface) then {
+
+};
+
+// Kod wykonywany wyłącznie na serwerze - wykonuje się tylko raz, na starcie misji
+if (isServer) then {
+
+};

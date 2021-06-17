@@ -5,7 +5,8 @@ class RscTitles {
 		fadeout = 0;
 		duration = 0;
 	};
-    class MissionIntroLogo {
+    // Pamiętaj, że GVAR(twojaKlasa) rozwiazuje się do mission_twojaKlasa
+    class GVAR(introA3CLogo) {
         idd = -1;
 		fadein = 0.001;
 		fadeout = 0.001;

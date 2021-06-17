@@ -5,17 +5,17 @@
 
 class CfgDebriefing {
     class End1 {
-        title = "MISJA ZAKOŃCZONA";
-        subtitle = "Wszystkie zadania zostały wykonane";
-        description = "Misja zakończona sukcesem";
+        title = CSTRING(CfgDebriefing_MissonEnd);
+        subtitle = CSTRING(CfgDebriefing_AllTasksAccomplished);
+        description = CSTRING(CfgDebriefing_MissonEndSuccess);
         pictureBackground = "data\loadscreen.jpg";
         picture = "data\a3c.paa";
         pictureColor[] = {1,1,1,1};
     };
     class End2 {
-        title = "MISJA ZAKOŃCZONA";
-        subtitle = "Misja nie powiodła się";
-        description = "Misja zakończona niepowodzeniem";
+        title = CSTRING(CfgDebriefing_MissonEnd);
+        subtitle = CSTRING(CfgDebriefing_MissionFailed);
+        description = CSTRING(CfgDebriefing_MissonEndFailed);
         pictureBackground = "data\loadscreen.jpg";
         picture = "data\a3c.paa";
         pictureColor[] = {1,1,1,1};
@@ -23,9 +23,9 @@ class CfgDebriefing {
 
     //Poniższa klasa zostanie wywołana AUTOMATYCZNIE w przypadku gdy wszyscy gracze zginą
     class endDeath {
-        title = "MISJA ZAKOŃCZONA";
-        subtitle = "Wszystkie jednostki poległy";
-        description = "Misja zakończona niepowodzeniem";
+        title = CSTRING(CfgDebriefing_MissonEnd);
+        subtitle = CSTRING(CfgDebriefing_AllUnitsDead);
+        description = CSTRING(CfgDebriefing_MissonEndFailed);
         pictureBackground = "";
         picture = "KIA";
         pictureColor[] = {0.6,0.1,0.2,1};
