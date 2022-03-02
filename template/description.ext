@@ -6,7 +6,7 @@
  */
 
 // Definicja wersji szablonu - nie zmieniać!
-a3c_missionTemplate = 3.00;
+a3c_missionTemplate = 3.01;
 
 // Deklaracje ekranów tytułowych
 // Używane np. w https://community.bistudio.com/wiki/titleRsc , https://community.bistudio.com/wiki/cutRsc

@@ -16,7 +16,7 @@ titleCut ["", "BLACK FADED", 999];
 
 // Schowanie UI logów debugowych
 if (is3DENPreview) then {
-  0 call a3cs_debug_fnc_toggleLogs;
+  true call a3cs_debug_fnc_hideLogs;
 };
 
 // Wyciszenie dźwięków środowiska - np szumu lasu itp.
@@ -142,5 +142,5 @@ sleep 5;
 
 // Pokazanie UI logów debugowych
 if (is3DENPreview) then {
-  0 call a3cs_debug_fnc_toggleLogs;
+  false call a3cs_debug_fnc_hideLogs;
 };
